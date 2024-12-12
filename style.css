@@ -1,0 +1,30 @@
+body{
+    background-color: tomato;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 10px;
+    color: darkslategray;
+}
+
+li{
+    background-color: blue;
+    border: 5px rgb(31, 226, 54) solid;
+    text-align: center;
+    list-style: lower-greek;
+    color: aliceblue;
+}
+a:hover{
+    color: aliceblue;
+}
+a:visited{
+    color: rgb(0, 255, 64);
+}
+a:active{
+    color: azure;
+}
+h2, h3{
+    font-weight: lighter;
+}
