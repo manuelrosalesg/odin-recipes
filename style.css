@@ -15,6 +15,10 @@ li{
     text-align: center;
     list-style: lower-greek;
     color: aliceblue;
+    padding: 10px;
+}
+li::marker{
+    color: yellow;
 }
 a:hover{
     color: aliceblue;
@@ -27,4 +31,16 @@ a:active{
 }
 h2, h3{
     font-weight: lighter;
+    background-color: white;
+    width: fit-content;
+    border: 2px black solid;
+    padding: 5px;
+    text-shadow: rgb(255, 27, 179) 1px 0 10px;
+    box-shadow: 10px 5px 5px red;
+}
+
+p{
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
